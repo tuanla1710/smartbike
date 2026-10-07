@@ -1,0 +1,4 @@
+api-guides/inc/external-ram-esp32-notes.rst
+api-reference/index.rst
+api-reference/protocols/esp_serial_slave_link.rst
+api-reference/protocols/esp_crt_bundle.rst
