@@ -1,0 +1,178 @@
+(kicad_sch
+	(version 20250114)
+	(generator "smartbike_v1")
+	(generator_version "9.0")
+	(uuid "794074aa-8925-5663-97dd-2143beeadc5f")
+	(paper "A3")
+	(title_block
+		(title "Smart Bike Controller V1")
+		(date "2026-10-07")
+		(rev "V1")
+		(company "Smart Bike V5")
+		(comment 1 "70 x 50 mm, 4 layer, 5 V only")
+	)
+	(lib_symbols)
+	(sheet
+		(at 25 30)
+		(size 120 28)
+		(stroke (width 0.15) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "af8a35d0-fe9b-5852-a9aa-1c6dcf4935b9")
+		(property "Sheetname" "Power"
+			(at 25 29 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 25 56 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "smartbike_v5"
+				(path "/794074aa-8925-5663-97dd-2143beeadc5f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25 64)
+		(size 120 28)
+		(stroke (width 0.15) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "06f31da9-4019-5eda-ab83-8e211e3b0d40")
+		(property "Sheetname" "USB"
+			(at 25 63 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 25 90 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "smartbike_v5"
+				(path "/794074aa-8925-5663-97dd-2143beeadc5f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25 98)
+		(size 120 28)
+		(stroke (width 0.15) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "84218d4e-20ba-5e52-a5c9-a0125383905a")
+		(property "Sheetname" "MCU"
+			(at 25 97 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 25 124 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "smartbike_v5"
+				(path "/794074aa-8925-5663-97dd-2143beeadc5f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25 132)
+		(size 120 28)
+		(stroke (width 0.15) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "db2648c9-25b0-5396-8daa-b6e5515911e9")
+		(property "Sheetname" "Sensors"
+			(at 25 131 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 25 158 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "smartbike_v5"
+				(path "/794074aa-8925-5663-97dd-2143beeadc5f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25 166)
+		(size 120 28)
+		(stroke (width 0.15) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "ab1eee92-b336-55e6-ba23-fffd7e982a9a")
+		(property "Sheetname" "GPS"
+			(at 25 165 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sheetfile" "gps.kicad_sch"
+			(at 25 192 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "smartbike_v5"
+				(path "/794074aa-8925-5663-97dd-2143beeadc5f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25 200)
+		(size 120 28)
+		(stroke (width 0.15) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "047e38e7-1ef8-5f72-8944-b30042aa51f5")
+		(property "Sheetname" "Outputs"
+			(at 25 199 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sheetfile" "outputs.kicad_sch"
+			(at 25 226 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "smartbike_v5"
+				(path "/794074aa-8925-5663-97dd-2143beeadc5f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25 234)
+		(size 120 28)
+		(stroke (width 0.15) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "7931b856-fdab-58f4-8eb3-33e5dd9841fd")
+		(property "Sheetname" "Handlebar"
+			(at 25 233 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sheetfile" "handlebar.kicad_sch"
+			(at 25 260 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "smartbike_v5"
+				(path "/794074aa-8925-5663-97dd-2143beeadc5f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(text "PCB Smart Bike V5 — Controller V1. Global labels connect the sheets."
+		(at 160 40 0)
+		(effects (font (size 2 2)))
+		(uuid "800ff980-259e-5d5f-a65a-a089a62f8026")
+	)
+	(sheet_instances
+		(path "/" (page "1"))
+	)
+	(embedded_fonts no)
+)

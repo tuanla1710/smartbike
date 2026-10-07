@@ -1,0 +1,9 @@
+status
+expect armed=0
+expect inhibit=disarmed
+expect mode=parking
+gates
+expect out_head=0
+expect out_tail=0
+expect out_horn=0
+expect out_brake=0

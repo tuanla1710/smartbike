@@ -1,0 +1,20 @@
+debug on
+expect ok
+inject lux 99
+expect ok
+arm
+expect ok queued
+tick 10
+expect evt arm=1
+gates
+expect out_head=1023
+inject lux 150
+expect ok
+tick 10
+gates
+expect out_head=1023
+inject lux 201
+expect ok
+tick 10
+gates
+expect out_head=0

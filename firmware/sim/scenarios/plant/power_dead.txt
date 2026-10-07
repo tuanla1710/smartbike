@@ -1,0 +1,8 @@
+tick 10
+hw power dead
+expect ok
+tick 200
+status
+expect inhibit=power
+gates
+expect out_head=0

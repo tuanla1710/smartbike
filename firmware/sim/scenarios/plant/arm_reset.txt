@@ -1,0 +1,9 @@
+arm
+expect ok queued
+tick 10
+expect evt arm=1
+hw reset power
+expect ok
+status
+expect armed=0
+expect mode=parking

@@ -1,0 +1,15 @@
+hw press left
+expect ok
+tick 20
+inputs
+expect raw_left=1
+expect stable_left=0
+tick 20
+inputs
+expect stable_left=1
+expect hazard=0
+hw press right
+expect ok
+tick 40
+inputs
+expect hazard=1

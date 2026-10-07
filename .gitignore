@@ -1,0 +1,13 @@
+# ESP-IDF được clone theo README.md, không nằm trong repo này.
+sources/
+
+# Kết quả build và sdkconfig sinh ra lúc set-target.
+firmware/build/
+firmware/sdkconfig
+firmware/sdkconfig.old
+
+# Binary đối chiếu trên host.
+firmware/host/bike_host
+
+__pycache__/
+*.pyc

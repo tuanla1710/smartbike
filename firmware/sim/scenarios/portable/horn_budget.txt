@@ -1,0 +1,19 @@
+debug on
+expect ok
+arm
+expect ok queued
+tick 10
+expect evt arm=1
+hold head on
+expect ok
+hold tail on
+expect ok
+hold left on
+expect ok
+hold horn on
+expect ok
+tick 400
+gates
+expect want_horn=1
+expect out_horn=0
+expect want_left=0

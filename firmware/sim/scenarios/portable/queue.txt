@@ -1,0 +1,14 @@
+arm
+expect ok queued
+arm
+expect ok queued
+arm
+expect ok queued
+arm
+expect ok queued
+arm
+expect err queue
+faults
+expect cmd_dropped=1
+tick 10
+expect evt arm=1

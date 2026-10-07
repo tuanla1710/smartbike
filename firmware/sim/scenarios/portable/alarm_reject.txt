@@ -1,0 +1,14 @@
+debug on
+expect ok
+config set alarm_motion_ms 50
+expect ok
+inject motion on
+expect ok
+tick 80
+expect evt mode=alarm
+ride start
+expect ok queued
+tick 10
+expect evt reject=ride_start mode
+status
+expect mode=alarm
